@@ -1,0 +1,93 @@
+@font-face{
+	 src: url(../fonts/opensans-regular.ttf);
+	 font-family: opensans-regular ;
+}
+@font-face{
+	 src: url(../fonts/opensans-bold.ttf);
+	 font-family: opensans-bold ;
+}
+@font-face{
+	 src: url(../fonts/opensans-regular.ttf);
+	 font-family: opensans-regular ;
+}
+
+:root{
+	--orange : #fd511a;
+	--black : #000000;
+	--green:#21b573;
+	--white: #ffffff;
+}
+
+/*...common part start....*/
+
+body{
+    font-family: "Open Sans", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989;
+}
+/*...common part end....*/
+
+/*font-family: "Ubuntu", sans-serif;*/
+
+ /*  Nipro Agency header css part start*/
+ header{
+ 	background-color: white ;
+ 	padding: 0px 0 ;
+ }
+.h_ltext{
+	color: black;
+}
+ .logo{}
+ .menu{}
+ .menu ul li a{
+ 	font-size: 22px ;
+ 	font-weight: 700 ;
+ 	color: #010101 !important;
+ 	margin: 0 30px !important;
+ }
+ .menu ul li:last-child a{
+ 	padding-right: 0 !important;
+ }
+
+.menu ul li a:hover{
+	color: white !important;
+
+}
+
+.h_btn{
+	
+	padding: 12px 28px !important;
+}
+.h_search{ margin-top: 17px;
+
+}
+ 
+	  
+ /*  tinyone header css part end*/
+
+ /*  Nipro Agency banner css part Start*/
+  .banner{
+  	background-image: url(../images/Nipro-Agency.jpg);
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  }
+  .b_slider {
+  		  margin: 200px 0;
+  }
+
+ /*  Nipro Agency banner css part end*/
+
+ /*feature start*/
+
+.c_arrow{
+	width: 2px;
+	height: 50 px;
+	background-color: #8e8e8e;
+}
+
+
+
+ /*banner end*/
+
